@@ -584,6 +584,7 @@ pre code {
 	flex-wrap: wrap;
 	margin-right: -15px;
 	margin-left: -15px;
+	justify-content: center;
 }
 
 .no-gutters {
@@ -7894,7 +7895,9 @@ button.close {
 }
 
 .text-white {
-	color: #ffffff !important;
+	color: #0084ff  !important;
+	opacity: 1 !important;
+	z-index: 1000;
 }
 
 .text-body {
